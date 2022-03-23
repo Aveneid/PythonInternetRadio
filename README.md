@@ -6,7 +6,7 @@ Internet Radio Player with an web interface.
 
 ## Dependencies
 
-mpc and mpc - music player daemon
+mpd and mpc - music player daemon
 
 ```
 sudo apt-get update
@@ -29,7 +29,7 @@ pip install oyaml
 ## Usage:
 
 ```
-main.py [-h] [--host HOST] [--port PORT]
+python3 main.py [-h] [--host HOST] [--port PORT]
                [--bluetooth-speaker-device BLUETOOTH_SPEAKER_DEVICE]
                [--show-volume-controls {yes,no}]
 
